@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://files.catbox.moe/m28djv.jpg" />
+  <img src="https://files.catbox.moe/qbw0l8.jpg" />
 </p>
 
 <!-- 📊 STATS & HERO ANIMATION (Updated Colors) -->
@@ -35,7 +35,7 @@
 </div>
 
 #### PRIME-V3 WHATSAPP BOT
-Izumi - Simple whatsapp Multi Device whatsapp bot.   
+Prime-V3 - Simple whatsapp Multi Device whatsapp bot.   
 ### SETUP
 1. get session id
     <br>
