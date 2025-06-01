@@ -1,29 +1,29 @@
 {
-  "name": "izumi-bot",
-  "version": "3.7.9",
-  "description": "Izumi simple multi device WhatsApp Bot.",
+  "name": "Prime-V3",
+  "version": "1.0.0",
+  "description": "Prime simple multi device WhatsApp Bot.",
   "main": "./index.js",
   "scripts": {
-    "start": "pm2 start . --attach --name izumi-bot",
+    "start": "pm2 start . --attach --name Prime-V3",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Akshay-Eypz/izumi-bot.git"
+    "url": "git+https://github.com/Akshay-Eypz/Prime-V3.git"
   },
   "keywords": [
     "bot",
-    "izumi",
-    "Eypz"
+    "Prime",
+    "Macoder"
   ],
-  "author": "EYPZ",
+  "author": "Macoder",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/Akshay-Eypz/izumi-bot/issues"
+    "url": "https://github.com/macoder67/Prime-V3/issues"
   },
-  "homepage": "https://github.com/Akshay-Eypz/izumi-bot#readme",
+  "homepage": "https://github.com/macoder67/Prime-V3-b#readme",
   "dependencies": {
-    "@adiwajshing/baileys": "github:Akshay-Eypz/Baileys",
+    "@adiwajshing/baileys": "github: macoder67/Baileys",
     "@adiwajshing/keyed-db": "^0.2.4",
     "acrcloud": "^1.4.0",
     "axios": "^1.6.0",
