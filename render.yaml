@@ -1,0 +1,52 @@
+services:
+  - type: web
+    name: Prime-V3
+    repo: https://github.com/macoder67/Prime-V3
+    branch: main
+    env: docker
+    dockerfilePath: Dockerfile
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: SESSION_ID
+        sync: false
+        required: true
+      - key: PREFIX
+        sync: false
+        required: true
+      - key: SUDO
+        sync: false
+        required: false
+      - key: MODE
+        sync: false
+        required: false
+      - key: LOG_MSG
+        sync: false
+        required: false
+      - key: ERROR_MSG
+        sync: false
+        required: false
+      - key: OWNER_NAME
+        sync: false
+        required: false
+      - key: BOT_NAME
+        sync: false
+        required: false
+      - key: STICKER_PACKNAME
+        sync: false
+        required: false
+      - key: AUDIO_DATA
+        sync: false
+        required: false
+      - key: MENU_URL
+        sync: false
+        required: false
+      - key: CAPTION
+        sync: false
+        required: false
+      - key: AUTHOR
+        sync: false
+        require: false
+      - key: PORT
+        sync: false
+        require: true
